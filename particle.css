@@ -1,0 +1,10 @@
+ body{
+	 margin:0;
+	 padding:0;
+	 overflow:hidden;
+ }
+ #snow_fall{
+	 width:100%;
+	 height:100%;
+	 background: #262626 url('75685.jpg');
+ }
