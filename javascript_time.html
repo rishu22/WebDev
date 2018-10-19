@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Time</title>
+	<style type="text/css">
+		.box{
+			border:black solid 2px;
+			padding: 20px;
+			margin: 20px;
+			text-align: center;
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+
+		<h1> Welcome To My Website</h1>
+
+
+
+	</div>
+<script type="text/javascript">
+		var today = new Date();
+		var hourNow = today.getHours();
+		var greeting;
+		if(hourNow > 18)
+		{
+			greeting = "Evening !";
+		}
+		else if(hourNow > 12)
+		{
+			greeting = "Afternoon";
+		}
+		else if(hourNow >0)
+		{
+			greeting = "Morning";
+		}
+
+		document.write('<center><h2> Good ' + greeting + '</h2></center>');
+	</script>
+	
+
+</body>
+</html>
